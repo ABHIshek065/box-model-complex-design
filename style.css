@@ -26,7 +26,7 @@ body{
 
 @keyframes card-effects {
     100%{
-        width: 600px;
+        width: 560px;
         transform: rotate(4deg);
     }
 }
