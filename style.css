@@ -11,7 +11,7 @@ body {
 }
 
 .card {
-  width: 550px;
+  width: 540px;
   border: 1px solid lightgray;
   border-radius: 16px;
   padding: 8px;
@@ -34,7 +34,7 @@ body {
 @keyframes card-effects {
   100% {
     width: 560px;
-    transform: rotate(4deg);
+    transform: rotate(2deg);
   }
 }
 
