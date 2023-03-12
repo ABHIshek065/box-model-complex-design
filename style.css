@@ -3,8 +3,7 @@ body {
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
-.container
-{
+.container {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
@@ -19,9 +18,24 @@ body {
   cursor: pointer;
   display: flex;
   align-items: center;
+  position: relative;
 }
 
-.sidebar{
+.likes{
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.likes-para{
+  margin: 12px;
+  background-color: aliceblue;
+  color: #000;
+  border-radius: 12px;
+  padding:4px 8px;
+}
+
+.sidebar {
   margin-left: 18px;
 }
 
